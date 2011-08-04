@@ -1,3 +1,5 @@
+import itertools
+
 abundant_list = []
 
 for a in range(2, 28124):
@@ -15,19 +17,20 @@ for a in range(2, 28124):
 print abundant_list
 
 sa_list = []
-for c in range(100000):
-	sa_list.append(False)
-	
-for e in range(len(abundant_list)):
-	print e
-	for f in range(e, len(abundant_list)):
-		print "alist f: ", abundant_list[f]
-		print "alist e: ", abundant_list[e]
-		sa_list[abundant_list[f] + abundant_list[e] - 2] = True
+
+for c in itertools.permutations(abundant_list, 2):
+	print c
+	psum = 0
+	for q in c:
+		psum += q
+	print psum
+	if psum < 28124:
+		sa_list.append(psum)
 		
 total_sum = 0
-for g in range(28124):
-	if sa_list[g] == False:
-		total_sum += (g + 1)
 		
+for x in range(1, 28124):
+	if (x in sa_list) == False:
+		total_sum += x
+
 print total_sum

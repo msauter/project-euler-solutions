@@ -21,13 +21,9 @@ print triangle
 
 max_sum = 0
 route_sum = 0
-a = 0
-b = 0
-
-while route_sum != 724:
+	
+for a in range(15):
 	
 	route_sum += triangle[a][b]
-	for a in range(15):
-		
 	
 print route_sum
