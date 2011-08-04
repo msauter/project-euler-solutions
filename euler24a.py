@@ -1,5 +1,9 @@
 import itertools
 
-digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+count = 0
 
-print list(itertools.permutations(digits))[1000000]
+for a in itertools.permutations(range(10)):
+	print a
+	count += 1
+	if count == 1000000:
+		break

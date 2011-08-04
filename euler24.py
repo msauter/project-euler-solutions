@@ -14,7 +14,7 @@ def convert(p):
 	return number
 
 digint = 0
-running_count = 1000000
+running_count = 999999
 for c in range(10):
 	fac = factorial(9 - c)
 	di = int(running_count / fac)
