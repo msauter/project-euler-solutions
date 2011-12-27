@@ -1,3 +1,12 @@
+#Problem 52
+#12 September 2003
+#It can be seen that the number, 125874, and its double, 251748, contain exactl
+#y the same digits, but in a different order.  Find the smallest positive
+# integer, x , such that 2 x , 3 x , 4 x , 5 x , and 6 x , contain the same
+#
+#----------
+
+
 import time
 s = time.time()
 
