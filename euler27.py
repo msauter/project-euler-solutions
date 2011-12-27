@@ -2,8 +2,8 @@
 #27 September 2002
 #Euler published the remarkable quadratic formula:  n + n + 41  It turns out
 # that the formula will produce 40 primes for the consecutive values n = 0 to
-# 39. However, when n = 40, 40 2 + 40 + 41 = 40(40 + 1) + 41 is divisible by 41
-#, and certainly when n = 41, 41 + 41 + 41 is clearly divisible by 41.  Using
+# 39. However, when n = 40, 40 2 + 40 + 41 = 40(40 + 1) + 41 is divisible by
+#41, and certainly when n = 41, 41 + 41 + 41 is clearly divisible by 41.  Using
 # computers, the incredible formula n  79 n + 1601 was discovered, which
 # produces 80 primes for the consecutive values n = 0 to 79. The product of the
 # coefficients, 79 and 1601, is 126479.  Considering quadratics of the form:   
