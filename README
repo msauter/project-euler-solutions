@@ -4,15 +4,4 @@ README
 This project is a collection of solutions to the programming problems on 
 projecteuler.net.  The problem I'm solving in each script is included in a 
 comment at the top of each solution file.  I wrote these solutions because 
-I wanted to learn more about programming in Python.  Additionally, I like 
-solving math problems. I found the math based problems on the site were 
-a good way to keep me interested as I learned.  I kept at it because the 
-feedback you get for making progress is addictive, in the same way a lot
-of online games are.
-
-I'm proud of it not so much for any individual solution but more for the 
-whole body of 46 solved problems.  When I made it to 25 solutions, a pop-up 
-on the site told me I was in the top 18.3% of people on the site in terms of 
-problems solved.  Now that I've solved closer to 50 I'd imagine I'm in an 
-even higher percentile.  I'm proud of this accomplishment and have learned 
-a lot through this experience.
+I wanted to stretch myself and learn more about programming in Python.
